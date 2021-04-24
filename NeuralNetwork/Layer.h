@@ -9,12 +9,12 @@ public:
 	~Layer();
 
 	void printLayer() const {}
-
-
-
-protected:
 	std::vector<Neuron> listOfNeurons;
 	size_t numberOfNeuronInLayer;
+
+
+private:
+	
 
 };
 
