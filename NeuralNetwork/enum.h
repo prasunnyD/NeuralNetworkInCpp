@@ -1,0 +1,3 @@
+#pragma once
+enum TrainingTypesENUM{PERCEPTRON, ADALINE, BACKPROPAGATON, LEVENBERG_MARQUARDT};
+enum ActivationFncENUM { LINAR = 0, SIGLOG = 1, HYPERTRAN =2, STEP =3 };
